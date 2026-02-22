@@ -1,0 +1,74 @@
+import { motion } from "framer-motion";
+import { Leaf, Heart, Truck } from "lucide-react";
+
+const features = [
+  {
+    icon: Leaf,
+    title: "Sustainably Sourced",
+    description: "We partner with local farms to bring you the freshest seasonal blooms, reducing our carbon footprint.",
+  },
+  {
+    icon: Heart,
+    title: "Crafted by Hand",
+    description: "Every arrangement is individually designed and assembled by our team of expert florists.",
+  },
+  {
+    icon: Truck,
+    title: "Same-Day Delivery",
+    description: "Order before noon for same-day delivery, carefully packaged to arrive in perfect condition.",
+  },
+];
+
+const Story = () => {
+  return (
+    <section id="story" className="py-24 md:py-32 bg-card">
+      <div className="container mx-auto px-6">
+        <div className="max-w-3xl mx-auto text-center mb-20">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+          >
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-3 font-body">
+              Our Philosophy
+            </p>
+            <h2 className="text-4xl md:text-5xl font-display font-medium text-foreground mb-6">
+              Beauty in Every <em className="italic">Bloom</em>
+            </h2>
+            <p className="text-muted-foreground font-body text-lg leading-relaxed">
+              At The Bloom Theory, we believe flowers are more than decoration — they're a
+              language of emotion. Each arrangement is a composition of color, texture, and
+              fragrance, designed to evoke joy and wonder.
+            </p>
+          </motion.div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          {features.map((feature, i) => (
+            <motion.div
+              key={feature.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.1, duration: 0.6 }}
+              className="text-center"
+            >
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 text-primary mb-5">
+                <feature.icon className="w-6 h-6" />
+              </div>
+              <h3 className="text-lg font-display font-medium text-foreground mb-2">
+                {feature.title}
+              </h3>
+              <p className="text-muted-foreground font-body text-sm leading-relaxed max-w-xs mx-auto">
+                {feature.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Story;
