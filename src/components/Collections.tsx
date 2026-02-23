@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import bouquetsImg from "@/assets/collection-bouquets.jpg";
+import bouquetsImg from "@/assets/collection-bouquets.jpeg";
 import wreathsImg from "@/assets/collection-wreaths.jpg";
 import giftsImg from "@/assets/collection-gifts.jpg";
 
