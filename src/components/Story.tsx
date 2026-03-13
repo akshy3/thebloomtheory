@@ -14,8 +14,8 @@ const features = [
   },
   {
     icon: Truck,
-    title: "Same-Day Delivery",
-    description: "Order before noon for same-day delivery, carefully packaged to arrive in perfect condition.",
+    title: "Fast Delivery",
+    description: "Orders are prepared with care and shipped promptly so they arrive beautifully and ready to gift.",
   },
 ];
 
