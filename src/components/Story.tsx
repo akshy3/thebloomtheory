@@ -10,7 +10,7 @@ const features = [
   {
     icon: Heart,
     title: "Crafted by Hand",
-    description: "Every arrangement is individually designed and assembled by our team of expert florists.",
+    description: "Every arrangement is individually shaped and assembled by hand with close attention to detail.",
   },
   {
     icon: Truck,
@@ -34,12 +34,12 @@ const Story = () => {
               Our Philosophy
             </p>
             <h2 className="text-4xl md:text-5xl font-display font-medium text-foreground mb-6">
-              Beauty in Every <em className="italic">Bloom</em>
+              Beauty You Can <em className="italic">Keep</em>
             </h2>
             <p className="text-muted-foreground font-body text-lg leading-relaxed">
-              At The Bloom Theory, we believe flowers are more than decoration — they're a
-              language of emotion. Each arrangement is a composition of color, texture, and
-              fragrance, designed to evoke joy and wonder.
+              At The Bloom Theory, we create floral pieces that feel expressive,
+              thoughtful, and personal. Each arrangement is designed to bring
+              softness, color, and charm into gifting and everyday spaces.
             </p>
           </motion.div>
         </div>

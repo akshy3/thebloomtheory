@@ -21,17 +21,17 @@ const Hero = () => {
           className="max-w-2xl"
         >
           <p className="text-primary-foreground/80 font-body text-sm tracking-[0.3em] uppercase mb-4">
-            Handcrafted with Love
+            Handcrafted with Care
           </p>
           <h1 className="text-5xl md:text-7xl font-display font-medium text-primary-foreground leading-[1.1] mb-6">
-            Where Every
+            Floral Keepsakes
             <br />
-            <em className="italic">Petal</em> Tells
-            <br />a Story
+            Made to Hold
+            <br />a Little Joy
           </h1>
           <p className="text-primary-foreground/80 font-body text-lg max-w-md mb-10 leading-relaxed">
-            Bespoke floral arrangements crafted from seasonal blooms, designed to
-            celebrate life's most meaningful moments.
+            Thoughtfully handcrafted floral arrangements designed for gifting,
+            celebrating, and keeping.
           </p>
           <div className="flex gap-4 flex-wrap">
             <a

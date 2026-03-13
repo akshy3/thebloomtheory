@@ -6,8 +6,8 @@ const Footer = () => {
           <div className="md:col-span-2">
             <h3 className="text-2xl font-display font-medium mb-3">The Bloom Theory</h3>
             <p className="text-primary-foreground/60 font-body text-sm leading-relaxed max-w-sm">
-              Handcrafted floral gifts designed to celebrate life's most meaningful moments.
-              Every petal placed with intention.
+              Handcrafted floral keepsakes designed for thoughtful gifting, quiet
+              corners, and meaningful moments.
             </p>
           </div>
           <div>
@@ -15,10 +15,10 @@ const Footer = () => {
               Shop
             </h4>
             <ul className="space-y-2.5 font-body text-sm">
-              <li><a href="#" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Bouquets</a></li>
-              <li><a href="#" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Wreaths</a></li>
-              <li><a href="#" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Gift Boxes</a></li>
-              <li><a href="#" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Subscriptions</a></li>
+              <li><a href="#collections" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Collections</a></li>
+              <li><a href="#collections" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Giftable Pieces</a></li>
+              <li><a href="#collections" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Statement Arrangements</a></li>
+              <li><a href="#story" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Our Process</a></li>
             </ul>
           </div>
           <div>
@@ -26,8 +26,7 @@ const Footer = () => {
               Connect
             </h4>
             <ul className="space-y-2.5 font-body text-sm">
-              <li><a href="#" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Instagram</a></li>
-              <li><a href="#" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Pinterest</a></li>
+              <li><a href="https://www.instagram.com/thebloomtheoryofficial/" target="_blank" rel="noreferrer" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Instagram</a></li>
               <li><a href="#" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">Contact Us</a></li>
               <li><a href="#" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">FAQs</a></li>
             </ul>
