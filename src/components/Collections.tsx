@@ -1,26 +1,33 @@
 import { motion } from "framer-motion";
-import bouquetsImg from "@/assets/collection-bouquets.jpeg";
-import wreathsImg from "@/assets/collection-wreaths.jpg";
-import giftsImg from "@/assets/collection-gifts.jpg";
+import pinkBouquetImg from "@/assets/pink.jpeg";
+import redPosyImg from "@/assets/red.jpeg";
+import sunflowerBouquetImg from "@/assets/sunflower.jpeg";
+import ivoryBouquetImg from "@/assets/white.jpeg";
 
 const collections = [
   {
-    title: "Seasonal Bouquets",
-    description: "Hand-tied arrangements celebrating nature's finest blooms of the moment.",
-    image: bouquetsImg,
-    alt: "Hand-tied bouquet of seasonal wildflowers",
+    title: "Handcrafted Bouquets",
+    description: "Soft, expressive arrangements made to feel personal, warm, and gift-ready.",
+    image: pinkBouquetImg,
+    alt: "Large blush pink handcrafted bouquet wrapped in white paper",
   },
   {
-    title: "Artisan Wreaths",
-    description: "Dried flower wreaths and installations that bring lasting beauty to any space.",
-    image: wreathsImg,
-    alt: "Artisan dried flower wreath with lavender and cotton",
+    title: "Thoughtful Little Stems",
+    description: "Smaller floral pieces designed for sweet gestures, keepsakes, and everyday joy.",
+    image: redPosyImg,
+    alt: "Small red handcrafted floral posy held in one hand",
   },
   {
-    title: "Gift Collections",
-    description: "Luxury floral gift boxes curated for birthdays, weddings, and celebrations.",
-    image: giftsImg,
-    alt: "Luxury floral gift box with preserved roses",
+    title: "Bright Seasonal Florals",
+    description: "Cheerful, sunlit arrangements that add color and character to any moment.",
+    image: sunflowerBouquetImg,
+    alt: "Handcrafted sunflower bouquet wrapped in grey paper",
+  },
+  {
+    title: "Soft Neutral Arrangements",
+    description: "Clean, understated florals with a gentle palette and a timeless feel.",
+    image: ivoryBouquetImg,
+    alt: "Cream and ivory handcrafted bouquet wrapped with striped ribbon",
   },
 ];
 
@@ -52,7 +59,7 @@ const Collections = () => {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
           {collections.map((item, i) => (
             <motion.div
               key={item.title}

@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Leaf, Heart, Truck } from "lucide-react";
+import { Sparkles, Heart, Truck } from "lucide-react";
 
 const features = [
   {
-    icon: Leaf,
-    title: "Sustainably Sourced",
-    description: "We partner with local farms to bring you the freshest seasonal blooms, reducing our carbon footprint.",
+    icon: Sparkles,
+    title: "Made to Last",
+    description: "Each arrangement is created as a keepsake piece, offering lasting beauty beyond a single occasion.",
   },
   {
     icon: Heart,
