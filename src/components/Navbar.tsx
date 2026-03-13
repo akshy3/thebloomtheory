@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import logo from "@/assets/logo.svg";
+import logo from "@/assets/logo-cropped.svg";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
