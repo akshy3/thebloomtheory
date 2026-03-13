@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import logo from "@/assets/logo.svg";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -19,9 +20,13 @@ const Navbar = () => {
         scrolled ? "bg-background/95 backdrop-blur-md shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto px-6 py-5 flex items-center justify-between">
-        <a href="#" className={`text-xl font-display font-medium transition-colors ${scrolled ? "text-foreground" : "text-primary-foreground"}`}>
-          The Bloom Theory
+      <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="#" className="shrink-0 flex items-center">
+          <img
+            src={logo}
+            alt="The Bloom Theory"
+            className="h-20 md:h-24 w-[220px] md:w-[280px] object-cover object-left"
+          />
         </a>
         <div className="hidden md:flex items-center gap-8">
           {["Collections", "Story", "Contact"].map((item) => (
