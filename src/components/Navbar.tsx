@@ -25,7 +25,9 @@ const Navbar = () => {
           <img
             src={logo}
             alt="The Bloom Theory"
-            className="h-20 md:h-24 w-[220px] md:w-[280px] object-cover object-left"
+            className={`h-20 md:h-24 w-[220px] md:w-[280px] object-cover object-left transition-[filter] duration-500 ${
+              scrolled ? "invert-0" : "invert brightness-0"
+            }`}
           />
         </a>
         <div className="hidden md:flex items-center gap-8">
